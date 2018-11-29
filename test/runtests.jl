@@ -5,5 +5,7 @@ runtests:
 - Date: 2018-11-20
 =#
 
-using Base.Test
+using Test
 using MathTools
+
+include("TestBackSubstitution.jl")
