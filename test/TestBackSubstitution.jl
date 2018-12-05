@@ -1,5 +1,5 @@
 using Test
-using MathTools.BackSubstitution
+using MathTools.DirectMethods
 
 @testset "back substitution" begin
     A = [1  0    0

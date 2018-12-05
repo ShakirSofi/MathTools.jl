@@ -1,6 +1,6 @@
 module MathTools
 
-include("BackSubstitution.jl")
-export BackSubstitution
+include("DirectMethods.jl")
+export DirectMethods
 
 end # module

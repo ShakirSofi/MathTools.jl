@@ -1,8 +1,4 @@
-module BackSubstitution
-
 using LinearAlgebra
-
-export back_substitution
 
 function back_substitution(A, b)
     a_nrow, a_ncol = size(A)
@@ -20,8 +16,6 @@ function back_substitution(A, b)
     for j = n : -1: 1
         x[j] = (b[j] - A[j, j+1:end]' * x[j+1:end]) / A[j, j]
     end
-    
-    return x
-end
 
+    return x
 end
