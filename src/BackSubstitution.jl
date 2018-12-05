@@ -1,5 +1,9 @@
 using LinearAlgebra
 
+using LinearAlgebra
+
+export back_substitution
+
 function back_substitution(A, b)
     a_nrow, a_ncol = size(A)
     b_ncol, = size(b)
