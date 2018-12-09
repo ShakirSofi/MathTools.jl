@@ -19,3 +19,4 @@ using MathTools
 
 include("TestBackSubstitution.jl")
 include("TestGaussianElimination.jl")
+include("TestCholesky.jl")

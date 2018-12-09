@@ -1,8 +1,11 @@
 module DirectMethods
 
 include("GaussianElimination.jl")
+export lu_factorization
 include("BackSubstitution.jl")
 export back_substitution
-export lu_factorization
+include("Cholesky.jl")
+export cholesky
+
 
 end
